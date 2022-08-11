@@ -101,7 +101,7 @@ p{
     padding: 0.625rem 1.875rem;
     line-height: 1.5625rem;
     background-color: var(--primary-color);
-    border: 0.1875rem solid var(--secondry-color);
+    border: 0.1875rem solid var(--primary-color);
     color: var(--white-color);
     font-size: 0.9375rem;
     font-weight: 600;
@@ -123,10 +123,11 @@ p{
     transition: all .4s ease-out 0s;
 }
 
-/* .main_btn:hover{
+.main_btn:hover{
     background-color: transparent;
     color: var(--primary-color);
-} */
+    border-color: var(--primary-color);
+}
 
 .white-btn:hover{
     background-color: transparent;
@@ -146,11 +147,6 @@ p{
 .counter-section h2,.testimonial-section h2, .book-food-text h2{
     color: var(--white-color);
 }
-
-.navbar-nav{
-    padding-right: 35%;
-}
-
 .navigation-wrap{
     position:fixed;
     width:100%;
@@ -216,4 +212,40 @@ p{
 }
 #counter-section p{
     color: var(--white-color);
+}
+
+.about-section{
+    background: var(--white-color);
+}
+
+.about-section .card,
+.about-section .card img{
+  border-radius: 0.625rem;
+}
+
+.about-section .text-sec{
+    padding-left:2rem;
+}
+
+.food-type{
+    padding-top:3.25rem;
+}
+.food-type ul li{
+    font-size:1rem;
+    color:var(--text-color);
+    line-height: 32px;
+    position:relative;
+    margin-left: 30px;
+}
+.food-type ul li::before{
+    position:absolute;
+    left:-2.1875rem;
+    color:var(--primary-color);
+    font-size: 1.25rem;
+    font-family: "Font Awesome 5 Free";
+    content:'\f00c';
+    display:inline-block;
+    padding-right:3px;
+    vertical-align:middle;
+    font-weight: 900;
 }
