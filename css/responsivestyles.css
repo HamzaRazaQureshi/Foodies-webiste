@@ -6,11 +6,12 @@
     .text-content{
         width: 100%;
     }
+    .navbar-nav{
+        padding-right: 35%;
+    }
     .navigation-wrap{
         text-align: center;
-        padding-right: 100px;
         background-color: var(--white-color);
-
     }
     .navigation-wrap .nav-link{
         line-height: 1.875rem;
