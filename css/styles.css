@@ -22,7 +22,7 @@ ul,ol{
 }
 
 :root{
-    --primary-color: #A82C48;
+    --primary-color: #8B4513;
     --secondry-color: #43121d;
     --third-color: #f98169;
     --white-color: #fff;
@@ -206,4 +206,10 @@ p{
     background: url('../images/bg/bg-1.jpg') no-repeat center;
     background-size:cover;
     padding:12.875rem 0 9.375rem;
+}
+#counter-section{
+    background-color: var(--primary-color);
+}
+#counter-section p{
+    color: var(--white-color);
 }
