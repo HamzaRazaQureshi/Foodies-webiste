@@ -96,7 +96,7 @@ p{
     letter-spacing: 1px;
 }
 
-/* .main_btn{
+.main_btn{
     display: inline-block;
     padding: 0.625rem 1.875rem;
     line-height: 1.5625rem;
@@ -108,7 +108,7 @@ p{
     text-transform: capitalize;
     box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
     transition: all .4s ease-out 0s;
-} */
+}
 
 .white-btn{
     padding: 0.625rem 1.875rem;
@@ -123,10 +123,10 @@ p{
     transition: all .4s ease-out 0s;
 }
 
-.main_btn:hover{
+/* .main_btn:hover{
     background-color: transparent;
     color: var(--primary-color);
-}
+} */
 
 .white-btn:hover{
     background-color: transparent;
@@ -147,10 +147,14 @@ p{
     color: var(--white-color);
 }
 
+.navbar-nav{
+    padding-right: 125px;
+}
+
 .navigation-wrap{
     position:fixed;
     width:100%;
-    left:0;
+    left: 0;
     z-index:1000;
     -webkit-transition:all 0.3s ease-out;
     transition:all 0.3s ease-out;
