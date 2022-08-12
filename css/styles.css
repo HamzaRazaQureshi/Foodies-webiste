@@ -289,3 +289,41 @@ p{
     color:var(--text-gray);
     margin-left:0.5rem;
 }
+
+.testimonial-section{
+    background-color: var(--primary-color);
+    padding: 7%;
+}
+.testimonial-section .carousel-item{
+    margin-top:3rem;
+    padding: 3rem 3.125rem;
+    background-color:var(--white-color);
+    border-radius: 0.9375rem;
+    text-align: center;
+} 
+.testimonial-section img{
+    max-width: 30%;
+    border-radius: 50%;
+    padding: 1.3125rem;
+}
+  
+.testimonial-section p{
+    font-size: 1.3125rem;
+    line-height: 2.0625rem;
+    padding:1 11% 0.625rem;
+}
+.testimonial-section .carousel-indicators{
+    bottom:-3.8125rem;
+}
+.testimonial-section .carousel-indicators button{
+    width:15px;
+    height:15px;
+    outline:none;
+    border-radius: 50%;
+    border:none;
+    margin-right:1rem;
+    opacity:0.2;
+}
+.testimonial-section .carousel-indicators button.active{
+    opacity:1;
+}
