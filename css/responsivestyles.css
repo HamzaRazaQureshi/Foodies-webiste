@@ -19,6 +19,10 @@
     .mainpage{
         padding: 10.375rem 0 10.375rem;
     }
+    .story-section{
+        height: auto;
+        padding: 3rem 0;
+    }
 }
 
 @media (max-width: 767px){
