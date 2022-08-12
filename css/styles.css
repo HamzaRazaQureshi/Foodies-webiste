@@ -97,9 +97,10 @@ p{
 }
 
 .main_btn{
+    margin-left: 10px;
     display: inline-block;
-    padding: 0.625rem 1.875rem;
-    line-height: 1.5625rem;
+    padding: 0.625rem 0.875rem;
+    line-height: 0.57rem;
     background-color: var(--primary-color);
     border: 0.1875rem solid var(--primary-color);
     color: var(--white-color);
@@ -124,9 +125,9 @@ p{
 }
 
 .main_btn:hover{
-    background-color: transparent;
+    background-color: transparent; 
     color: var(--primary-color);
-    border-color: var(--primary-color);
+    border-color: var(--primary-color); 
 }
 
 .white-btn:hover{
@@ -197,6 +198,7 @@ p{
     transition:all .15s ease-in-out 0s;
 }
 
+
 #logo{
     width: 175px;
 }
@@ -262,6 +264,28 @@ p{
     color:var(--primary-color);
 }
 
-.textcontent{
+.story-section .textcontent{
     padding: 5% 10%;
+}
+
+.explore-food .card{
+    border:none;
+    background-color: transparent;
+    border-radius: 0.9375rem;
+}
+.explore-food .card img{
+    border-radius: 0.9375rem;
+    object-fit: cover;
+}
+.explore-food .card span{
+    display:block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:var(--primary-color);
+    padding-bottom:1rem;
+    border-bottom:0.0625rem solid #eee;
+}
+.explore-food .card span del{
+    color:var(--text-gray);
+    margin-left:0.5rem;
 }
