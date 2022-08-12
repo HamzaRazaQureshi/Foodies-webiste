@@ -23,8 +23,25 @@
         height: auto;
         padding: 3rem 0;
     }
+    /* .testimonial-section p{
+        padding: 0;
+    } */
 }
 
 @media (max-width: 767px){
-    
+    .testimonial-section{
+        padding: 10%;
+    }
+    .testimonial-section img{
+        max-width: 50%;
+    }   
+}
+
+@media (max-width: 330px){
+    .carousel-indicators{
+        padding-bottom: 19px;
+    }
+    .testimonial-section img{
+        max-width: 80%;
+    }   
 }
