@@ -23,9 +23,6 @@
         height: auto;
         padding: 3rem 0;
     }
-    /* .testimonial-section p{
-        padding: 0;
-    } */
 }
 
 @media (max-width: 767px){
@@ -47,6 +44,9 @@
     .footer .footer-link,
     .footer a i{
         padding:0 0.7rem;
+    }
+    #logo{
+        margin-right: 222px;
     }
 }
 
