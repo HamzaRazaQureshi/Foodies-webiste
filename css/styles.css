@@ -155,6 +155,7 @@ p{
     z-index:1000;
     -webkit-transition:all 0.3s ease-out;
     transition:all 0.3s ease-out;
+    background-color: transparent;
 }
 
 #navbarText{
@@ -200,7 +201,7 @@ p{
 
 
 #logo{
-    width: 175px;
+    width: 140px;
 }
 
 .mainpage{
@@ -255,11 +256,14 @@ p{
 .story-section{
     width:100%;
     height:28.125rem;
-    background: url('../images/bg/bg-2.jpg') no-repeat center;
+    background:  url(../images/bg/3.jpg) no-repeat center;
     background-size: cover;
     padding-top:100px;
     text-align: center;
 } 
+.story-section p{
+    color: var(--white-color);
+}
 .story-section h2{
     color:var(--primary-color);
 }
@@ -332,4 +336,56 @@ p{
     color:var(--primary-color);
     font-size: 1.875rem;
     margin-right:0.3125rem;
-} 
+}
+
+.book-food{
+    width:100%;
+    background:url('../images/bg/2.jpeg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:0 71.9125px;
+    padding:4.375rem 0
+}
+
+.newsletter{
+    width:55%;
+    margin:0 auto;
+}
+.newsletter .form-control{
+    height:3.225rem;
+    padding:0 1.25rem;
+    font-size: 0.875rem; 
+    width:100%;
+    border:none;
+    border-radius: 0;
+    background:transparent;
+    border:0.1875rem solid var(--text-gray);
+    color:var(--black-color);
+    font-weight: 700;
+}
+.newsletter .form-control:hover,
+.newsletter .form-control:focus{
+    outline:none;
+    box-shadow: none;
+    border-color:var(--primary-color);
+}
+
+.footer{
+    background: var(--primary-color);
+}
+.footer-link{
+    color: white !important;
+    font-size:1rem;
+    padding:0 1.875rem;
+}
+.footer .footer-link:hover{
+    color:var(--black-color) !important;
+}
+.footer a i{
+    font-size: 1.5rem;
+    color:var(--white-color);
+    padding:0 1rem;
+}
+#footerlink a:hover i:hover{
+    color: var(--black-color) !important;
+}
