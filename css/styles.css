@@ -389,3 +389,7 @@ p{
 #footerlink a:hover i:hover{
     color: var(--black-color) !important;
 }
+
+#count1, #count2, #count3, #count4 {
+    color: var(--white-color);
+}
