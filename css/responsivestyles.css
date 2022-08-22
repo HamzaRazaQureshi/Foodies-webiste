@@ -23,6 +23,9 @@
         height: auto;
         padding: 3rem 0;
     }
+    .navbar-toggler{
+        margin-left: 60%;
+    }
 }
 
 @media (max-width: 767px){
@@ -47,6 +50,9 @@
     }
     #logo{
         margin-right: 222px;
+    }
+    .navbar-toggler{
+        margin-left: -132px;
     }
 }
 
